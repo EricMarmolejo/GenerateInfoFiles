@@ -31,7 +31,7 @@ public class main {
         }
     }
 
-    // Cargar productos (ahora incluye nombre)
+    // Cargar productos
     static void loadProducts(Map<Integer, String> names,
                              Map<Integer, Double> prices) throws IOException {
 
