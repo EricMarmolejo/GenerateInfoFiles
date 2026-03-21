@@ -1,0 +1,10 @@
+1;Producto1;517
+2;Producto2;432
+3;Producto3;216
+4;Producto4;507
+5;Producto5;343
+6;Producto6;267
+7;Producto7;275
+8;Producto8;124
+9;Producto9;296
+10;Producto10;396
