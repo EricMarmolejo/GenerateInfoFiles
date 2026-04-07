@@ -1,0 +1,54 @@
+DOCUMENTO DE ENTREGA 2 - SEMANA 5
+Proyecto: Generacion y clasificacion de datos
+Modulo: Conceptos Fundamentales de Programacion
+Grupo 6: Eric Camilo Marmolejo B., Juan Ortega Gomez, David Esteban Urquijo
+
+=======================================================================
+ESTADO ACTUAL DEL PROYECTO
+=======================================================================
+
+Esta entrega incluye una version preliminar del proyecto completo con
+los siguientes elementos implementados:
+
+[COMPLETADO] 1. Documentacion Javadoc en todas las clases y metodos.
+[COMPLETADO] 2. Buenas practicas de programacion (espaciado, nombres descriptivos).
+[COMPLETADO] 3. Reporte de vendedores (reporte_vendedores.csv), ordenado de mayor
+              a menor por dinero recaudado.
+[COMPLETADO] 4. Reporte de productos (reporte_productos.csv), ordenado de mayor
+              a menor por cantidad vendida.
+[COMPLETADO] 5. Metodos de generacion de archivos de prueba:
+              - createSalesMenFile(int, String, long)
+              - createProductsFile(int)
+              - createSalesManInfoFile(int)
+[COMPLETADO] Extra A: soporte de multiples archivos de ventas por vendedor.
+             Los totales se acumulan entre todos los archivos del mismo vendedor
+             (ej. ventas_1001.txt y ventas_1001_2.txt).
+[COMPLETADO] Extra C: deteccion de datos invalidos con mensajes de advertencia:
+             - Lineas con formato incorrecto
+             - IDs de producto inexistentes en el catalogo
+             - Cantidades negativas o iguales a cero
+
+=======================================================================
+PARTES PENDIENTES PARA LA ENTREGA FINAL (SEMANA 7-8)
+=======================================================================
+
+1. ARCHIVO conslusion.txt
+   - El enunciado requiere un archivo llamado "conslusion.txt" (sic) en el
+     repositorio con los siguientes puntos:
+     a. Lo aprendido durante el desarrollo del proyecto.
+     b. Posibles aplicaciones en la vida profesional.
+     c. Las dificultades presentadas durante el desarrollo.
+   - Este archivo se redactara y agregara en la Entrega 3.
+
+2. EXTRA B: Archivos serializados
+   - Implementar la capacidad de leer y escribir archivos serializados
+     en Java (ObjectOutputStream / ObjectInputStream) como alternativa
+     a los archivos de texto plano.
+   - Pendiente de implementacion para la Entrega 3.
+
+3. REVISION FINAL Y SUSTENTACION
+   - Revision completa del codigo antes de la sustentacion.
+   - Pruebas con diferentes volumenes de datos.
+   - Presentacion oral del proyecto (Semanas 7-8).
+
+=======================================================================
